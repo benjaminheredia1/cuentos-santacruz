@@ -33,11 +33,11 @@ const CuentoCard: React.FC<CuentoCardProps> = ({ cuento, onLike, onView }) => {
 
     const getCategoriaColor = (categoria: string) => {
         const colors = {
-            tradicional: 'bg-santa-cruz-green text-white',
-            moderno: 'bg-santa-cruz-blue text-white',
-            infantil: 'bg-santa-cruz-red text-white',
-            historico: 'bg-gray-600 text-white',
-            leyenda: 'bg-purple-600 text-white',
+            tradicional: 'bg-primaryGuarayo-500 text-white',
+            moderno: 'bg-guarayo-river text-white',
+            infantil: 'bg-secondaryGuarayo-500 text-white',
+            historico: 'bg-amber-700 text-white',
+            leyenda: 'bg-purple-700 text-white',
             mito: 'bg-orange-600 text-white'
         }
         return colors[categoria as keyof typeof colors] || 'bg-gray-500 text-white'
@@ -60,7 +60,7 @@ const CuentoCard: React.FC<CuentoCardProps> = ({ cuento, onLike, onView }) => {
             <CardHeader className="pb-3">
                 <div className="flex items-start justify-between">
                     <div className="flex-1">
-                        <CardTitle className="text-lg font-semibold text-gray-900 group-hover:text-santa-cruz-green transition-colors line-clamp-2">
+                        <CardTitle className="text-lg font-semibold text-gray-900 group-hover:text-primaryGuarayo-500 transition-colors line-clamp-2">
                             {cuento.titulo}
                         </CardTitle>
                         <p className="text-sm text-gray-600 mt-1">
@@ -146,7 +146,7 @@ const CuentoCard: React.FC<CuentoCardProps> = ({ cuento, onLike, onView }) => {
                     <Link href={`/cuento/${cuento.id}`} className="flex-1">
                         <Button
                             onClick={handleView}
-                            className="w-full bg-santa-cruz-green hover:bg-primary-600"
+                            className="w-full bg-primaryGuarayo-500 hover:bg-primaryGuarayo-600"
                             size="sm"
                         >
                             <Eye className="w-4 h-4 mr-2" />

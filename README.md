@@ -1,10 +1,10 @@
-# Cuentos Santa Cruz
+# Cuentos de Guarayo · Voces Ancestrales
 
-Una plataforma web moderna para descubrir y compartir cuentos típicos de Santa Cruz de la Sierra, Bolivia. Construida con Next.js 14, Supabase y Tailwind CSS.
+Plataforma web para preservar, compartir y difundir relatos, memorias orales y expresiones culturales del pueblo Guarayo. Construida con Next.js 14, Supabase y Tailwind CSS.
 
 ## 🎨 Características
 
-- **Diseño Moderno**: Paleta de colores inspirada en la bandera de Santa Cruz de la Sierra
+- **Identidad Cultural**: Paleta inspirada en la selva, la tierra y los tonos artesanales guarayo
 - **Subida de Archivos**: Soporte para imágenes, audios y videos
 - **Categorización**: Cuentos organizados por categorías (tradicional, moderno, infantil, etc.)
 - **Búsqueda Avanzada**: Filtros por categoría, autor, contenido y más
@@ -75,14 +75,14 @@ Una plataforma web moderna para descubrir y compartir cuentos típicos de Santa 
 - Bucket `cuentos-media` para archivos multimedia
 - Políticas configuradas para acceso público
 
-## 🎨 Paleta de Colores
+## 🎨 Paleta de Colores (Nueva Identidad)
 
-Basada en la bandera de Santa Cruz de la Sierra:
-- **Verde**: `#00A651` (color principal)
-- **Blanco**: `#FFFFFF`
-- **Rojo**: `#E31E24`
-- **Azul**: `#003DA5`
-- **Dorado**: `#FFD700`
+Basada en elementos naturales y simbología Guarayo:
+- **Forest (Bosque)**: `#1B5E20` (Primario / vida y territorio)
+- **Accent (Artesanal / Sol)**: `#C47F1D`
+- **Earth (Tierra / Raíz)**: `#6B4F3A`
+- **River (Agua / Camino)**: `#0E4D64`
+- **Light (Luz / Fondo)**: `#F5F1E6`
 
 ## 📱 Páginas
 
@@ -151,4 +151,4 @@ Este proyecto está bajo la Licencia MIT. Ver `LICENSE` para más detalles.
 
 ---
 
-**¡Preservemos juntos la rica tradición oral de Santa Cruz!** 🇧🇴
+**¡Honremos y preservemos las voces ancestrales Guarayo!** �

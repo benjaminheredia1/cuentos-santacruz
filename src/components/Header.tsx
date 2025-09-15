@@ -15,15 +15,15 @@ const Header: React.FC = () => {
                 <div className="flex justify-between items-center h-16">
                     {/* Logo */}
                     <Link href="/" className="flex items-center space-x-2">
-                        <div className="w-10 h-10 bg-gradient-to-r from-santa-cruz-green to-santa-cruz-red rounded-lg flex items-center justify-center">
+                        <div className="w-10 h-10 bg-gradient-to-r from-primaryGuarayo-500 to-secondaryGuarayo-500 rounded-lg flex items-center justify-center">
                             <BookOpen className="w-6 h-6 text-white" />
                         </div>
                         <div>
                             <h1 className="text-xl font-bold text-gray-900">
-                                Cuentos Santa Cruz
+                                Cuentos de Guarayo
                             </h1>
                             <p className="text-xs text-gray-500 -mt-1">
-                                Tradición y Cultura
+                                Voces Ancestrales
                             </p>
                         </div>
                     </Link>
@@ -32,21 +32,21 @@ const Header: React.FC = () => {
                     <nav className="hidden md:flex items-center space-x-8">
                         <Link
                             href="/"
-                            className="flex items-center space-x-1 text-gray-700 hover:text-santa-cruz-green transition-colors"
+                            className="flex items-center space-x-1 text-gray-700 hover:text-primaryGuarayo-500 transition-colors"
                         >
                             <Home className="w-4 h-4" />
                             <span>Inicio</span>
                         </Link>
                         <Link
                             href="/cuentos"
-                            className="flex items-center space-x-1 text-gray-700 hover:text-santa-cruz-green transition-colors"
+                            className="flex items-center space-x-1 text-gray-700 hover:text-primaryGuarayo-500 transition-colors"
                         >
                             <BookOpen className="w-4 h-4" />
                             <span>Cuentos</span>
                         </Link>
                         <Link
                             href="/buscar"
-                            className="flex items-center space-x-1 text-gray-700 hover:text-santa-cruz-green transition-colors"
+                            className="flex items-center space-x-1 text-gray-700 hover:text-primaryGuarayo-500 transition-colors"
                         >
                             <Search className="w-4 h-4" />
                             <span>Buscar</span>
@@ -57,7 +57,7 @@ const Header: React.FC = () => {
                     <div className="flex items-center space-x-4">
                         {user && (
                             <Link href="/nuevo-cuento">
-                                <Button className="bg-santa-cruz-green hover:bg-primary-600 text-white">
+                                <Button className="bg-primaryGuarayo-500 hover:bg-primaryGuarayo-600 text-white">
                                     <Plus className="w-4 h-4 mr-2" />
                                     Nuevo Cuento
                                 </Button>

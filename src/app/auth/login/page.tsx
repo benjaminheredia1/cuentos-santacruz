@@ -41,11 +41,11 @@ export default function LoginPage() {
               <Input type="password" value={password} onChange={e => setPassword(e.target.value)} required />
             </div>
             {error && <p className="text-red-600 text-sm">{error}</p>}
-            <Button type="submit" disabled={loading} className="w-full bg-santa-cruz-green">
+            <Button type="submit" disabled={loading} className="w-full bg-primaryGuarayo-500 hover:bg-primaryGuarayo-600">
               {loading ? 'Cargando...' : 'Ingresar'}
             </Button>
           </form>
-          <p className="text-sm mt-4 text-center">¿No tienes cuenta? <Link href="/auth/registro" className="text-santa-cruz-green underline">Regístrate</Link></p>
+          <p className="text-sm mt-4 text-center">¿No tienes cuenta? <Link href="/auth/registro" className="text-primaryGuarayo-500 underline">Regístrate</Link></p>
         </CardContent>
       </Card>
     </div>

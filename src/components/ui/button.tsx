@@ -7,12 +7,12 @@ const buttonVariants = cva(
     {
         variants: {
             variant: {
-                default: "bg-santa-cruz-green text-white hover:bg-primary-600",
-                destructive: "bg-santa-cruz-red text-white hover:bg-secondary-600",
-                outline: "border border-santa-cruz-green text-santa-cruz-green hover:bg-santa-cruz-green hover:text-white",
-                secondary: "bg-santa-cruz-blue text-white hover:bg-blue-700",
-                ghost: "hover:bg-gray-100 hover:text-gray-900",
-                link: "text-santa-cruz-green underline-offset-4 hover:underline",
+                default: "bg-primaryGuarayo-500 text-white hover:bg-primaryGuarayo-600",
+                destructive: "bg-secondaryGuarayo-500 text-white hover:bg-secondaryGuarayo-600",
+                outline: "border border-primaryGuarayo-500 text-primaryGuarayo-500 hover:bg-primaryGuarayo-500 hover:text-white",
+                secondary: "bg-guarayo-river text-white hover:bg-primaryGuarayo-700",
+                ghost: "hover:bg-guarayo-light hover:text-primaryGuarayo-600",
+                link: "text-primaryGuarayo-500 underline-offset-4 hover:underline",
             },
             size: {
                 default: "h-10 px-4 py-2",
