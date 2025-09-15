@@ -127,7 +127,7 @@ export default function EditarCuentoPage() {
         {error && <p className='text-red-600 text-sm'>{error}</p>}
         <div className='flex justify-end space-x-4'>
           <Button type='button' variant='outline' onClick={() => router.back()}>Cancelar</Button>
-          <Button type='submit' disabled={saving} className='bg-santa-cruz-green'>{saving ? 'Guardando...' : 'Guardar Cambios'}</Button>
+          <Button type='submit' disabled={saving} className='bg-primaryGuarayo-500 hover:bg-primaryGuarayo-600'>{saving ? 'Guardando...' : 'Guardar Cambios'}</Button>
         </div>
       </form>
     </div>

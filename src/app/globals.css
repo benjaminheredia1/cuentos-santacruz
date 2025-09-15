@@ -52,11 +52,11 @@ a {
 /* Componentes personalizados */
 @layer components {
     .btn-primary {
-        @apply bg-santa-cruz-green hover:bg-primary-600 text-white font-medium py-2 px-4 rounded-lg transition-colors duration-200;
+        @apply bg-primaryGuarayo-500 hover:bg-primaryGuarayo-600 text-white font-medium py-2 px-4 rounded-lg transition-colors duration-200;
     }
 
     .btn-secondary {
-        @apply bg-santa-cruz-red hover:bg-secondary-600 text-white font-medium py-2 px-4 rounded-lg transition-colors duration-200;
+        @apply bg-secondaryGuarayo-500 hover:bg-secondaryGuarayo-600 text-white font-medium py-2 px-4 rounded-lg transition-colors duration-200;
     }
 
     .card {
@@ -64,14 +64,14 @@ a {
     }
 
     .input-field {
-        @apply w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-santa-cruz-green focus:border-transparent outline-none transition-all duration-200;
+        @apply w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primaryGuarayo-500 focus:border-transparent outline-none transition-all duration-200;
     }
 
-    .gradient-santa-cruz {
-        @apply bg-gradient-to-r from-santa-cruz-green via-santa-cruz-white to-santa-cruz-red;
+    .gradient-identidad {
+        @apply bg-gradient-to-r from-primaryGuarayo-500 via-guarayo-light to-secondaryGuarayo-500;
     }
 
     .text-gradient {
-        @apply bg-gradient-to-r from-santa-cruz-green to-santa-cruz-red bg-clip-text text-transparent;
+        @apply bg-gradient-to-r from-primaryGuarayo-500 to-secondaryGuarayo-500 bg-clip-text text-transparent;
     }
 }

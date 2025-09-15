@@ -118,7 +118,7 @@ export default function NuevoCuentoPage() {
                 <div>
                     <h1 className="text-3xl font-bold text-gray-900">Nuevo Cuento</h1>
                     <p className="text-gray-600 mt-2">
-                        Comparte un cuento típico de Santa Cruz de la Sierra
+                        Comparte un relato ancestral del pueblo Guarayo
                     </p>
                 </div>
                 <Link href="/cuentos">
@@ -135,7 +135,7 @@ export default function NuevoCuentoPage() {
                 <Card>
                     <CardHeader>
                         <CardTitle className="flex items-center space-x-2">
-                            <Upload className="w-5 h-5 text-santa-cruz-green" />
+                            <Upload className="w-5 h-5 text-primaryGuarayo-500" />
                             <span>Información del Cuento</span>
                         </CardTitle>
                     </CardHeader>
@@ -273,7 +273,7 @@ export default function NuevoCuentoPage() {
                     <Button
                         type="submit"
                         disabled={saving || uploading}
-                        className="bg-santa-cruz-green hover:bg-primary-600"
+                        className="bg-primaryGuarayo-500 hover:bg-primaryGuarayo-600"
                     >
                         {saving || uploading ? (
                             <>

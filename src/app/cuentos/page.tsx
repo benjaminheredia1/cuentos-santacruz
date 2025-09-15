@@ -68,7 +68,7 @@ export default function CuentosPage() {
         return (
             <div className="flex items-center justify-center min-h-96">
                 <div className="text-center">
-                    <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-santa-cruz-green mx-auto"></div>
+                    <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primaryGuarayo-500 mx-auto"></div>
                     <p className="mt-4 text-gray-600">Cargando cuentos...</p>
                 </div>
             </div>
@@ -94,7 +94,7 @@ export default function CuentosPage() {
                     Todos los Cuentos
                 </h1>
                 <p className="text-xl text-gray-600">
-                    Descubre la rica tradición oral de Santa Cruz de la Sierra
+                    Descubre y preserva la memoria oral Guarayo
                 </p>
             </div>
 

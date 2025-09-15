@@ -95,11 +95,11 @@ export default function CuentoDetailPage() {
 
     const getCategoriaColor = (categoria: string) => {
         const colors = {
-            tradicional: 'bg-santa-cruz-green text-white',
-            moderno: 'bg-santa-cruz-blue text-white',
-            infantil: 'bg-santa-cruz-red text-white',
-            historico: 'bg-gray-600 text-white',
-            leyenda: 'bg-purple-600 text-white',
+            tradicional: 'bg-primaryGuarayo-500 text-white',
+            moderno: 'bg-guarayo-river text-white',
+            infantil: 'bg-secondaryGuarayo-500 text-white',
+            historico: 'bg-amber-700 text-white',
+            leyenda: 'bg-purple-700 text-white',
             mito: 'bg-orange-600 text-white'
         }
         return colors[categoria as keyof typeof colors] || 'bg-gray-500 text-white'
@@ -121,7 +121,7 @@ export default function CuentoDetailPage() {
         return (
             <div className="flex items-center justify-center min-h-96">
                 <div className="text-center">
-                    <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-santa-cruz-green mx-auto"></div>
+                    <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primaryGuarayo-500 mx-auto"></div>
                     <p className="mt-4 text-gray-600">Cargando cuento...</p>
                 </div>
             </div>
@@ -238,7 +238,7 @@ export default function CuentoDetailPage() {
                             <div className="flex flex-wrap gap-4">
                                 {cuento.audio_url && (
                                     <div className="flex items-center space-x-2 bg-gray-50 rounded-lg p-4">
-                                        <Volume2 className="w-5 h-5 text-santa-cruz-green" />
+                                        <Volume2 className="w-5 h-5 text-primaryGuarayo-500" />
                                         <audio controls className="flex-1">
                                             <source src={cuento.audio_url} type="audio/mpeg" />
                                             Tu navegador no soporta el elemento de audio.
@@ -267,7 +267,7 @@ export default function CuentoDetailPage() {
                     </Button>
                 </Link>
                 <Link href="/nuevo-cuento">
-                    <Button className="bg-santa-cruz-green hover:bg-primary-600">
+                    <Button className="bg-primaryGuarayo-500 hover:bg-primaryGuarayo-600">
                         Compartir Mi Cuento
                     </Button>
                 </Link>

@@ -1,7 +1,8 @@
 {
-  "name": "cuentos-santa-cruz",
+  "name": "cuentos-de-guarayo-voces-ancestrales",
   "version": "0.1.0",
   "private": true,
+  "description": "Plataforma de relatos 'Cuentos de Guarayo · Voces Ancestrales' con subida de multimedia (imagen, audio, video) y autenticación usando Supabase.",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

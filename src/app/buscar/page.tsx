@@ -80,7 +80,7 @@ export default function BuscarPage() {
         return (
             <div className="flex items-center justify-center min-h-96">
                 <div className="text-center">
-                    <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-santa-cruz-green mx-auto"></div>
+                    <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primaryGuarayo-500 mx-auto"></div>
                     <p className="mt-4 text-gray-600">Cargando cuentos...</p>
                 </div>
             </div>
@@ -106,7 +106,7 @@ export default function BuscarPage() {
                     Buscar Cuentos
                 </h1>
                 <p className="text-xl text-gray-600">
-                    Encuentra el cuento perfecto de Santa Cruz
+                    Encuentra relatos vivos del pueblo Guarayo
                 </p>
             </div>
 
@@ -115,7 +115,7 @@ export default function BuscarPage() {
                 <div className="lg:col-span-1">
                     <div className="bg-white rounded-xl shadow-lg p-6 sticky top-24">
                         <h3 className="text-lg font-semibold text-gray-900 mb-4 flex items-center">
-                            <Filter className="w-5 h-5 text-santa-cruz-green mr-2" />
+                            <Filter className="w-5 h-5 text-primaryGuarayo-500 mr-2" />
                             Filtros
                         </h3>
 
@@ -197,7 +197,7 @@ export default function BuscarPage() {
                                         className="flex items-center justify-between text-sm cursor-pointer hover:bg-gray-50 p-2 rounded"
                                         onClick={() => setSelectedCategoria(cat.value)}
                                     >
-                                        <span className={selectedCategoria === cat.value ? 'text-santa-cruz-green font-medium' : ''}>
+                                        <span className={selectedCategoria === cat.value ? 'text-primaryGuarayo-600 font-medium' : ''}>
                                             {cat.label}
                                         </span>
                                         <span className="text-gray-500">{cat.count}</span>

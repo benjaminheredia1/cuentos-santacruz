@@ -76,10 +76,10 @@ const FileUpload: React.FC<FileUploadProps> = ({
     const getIcon = () => {
         if (selectedFile) {
             switch (type) {
-                case 'image': return <Image className="w-8 h-8 text-santa-cruz-green" />
-                case 'audio': return <Music className="w-8 h-8 text-santa-cruz-green" />
-                case 'video': return <Video className="w-8 h-8 text-santa-cruz-green" />
-                default: return <File className="w-8 h-8 text-santa-cruz-green" />
+                case 'image': return <Image className="w-8 h-8 text-primaryGuarayo-500" />
+                case 'audio': return <Music className="w-8 h-8 text-primaryGuarayo-500" />
+                case 'video': return <Video className="w-8 h-8 text-primaryGuarayo-500" />
+                default: return <File className="w-8 h-8 text-primaryGuarayo-500" />
             }
         }
         return <Upload className="w-8 h-8 text-gray-400" />
@@ -100,9 +100,9 @@ const FileUpload: React.FC<FileUploadProps> = ({
                 className={cn(
                     "border-2 border-dashed rounded-lg p-6 text-center transition-colors",
                     isDragOver
-                        ? "border-santa-cruz-green bg-green-50"
+                        ? "border-primaryGuarayo-500 bg-green-50"
                         : selectedFile
-                            ? "border-santa-cruz-green bg-green-50"
+                            ? "border-primaryGuarayo-500 bg-green-50"
                             : "border-gray-300 hover:border-gray-400",
                     error && "border-red-500 bg-red-50"
                 )}
